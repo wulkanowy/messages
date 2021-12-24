@@ -7,6 +7,7 @@ val messages = listOf(
         content = "Wesołych Świąt i szczęśliwego Nowego Roku, żeby w tym przyszłym było mniej awarii VULCANa niż w obecnym, życzy cały Wulkanowy zespół! 🎄",
         priority = MessagePriority.LOW,
         type = MessageType.DASHBOARD_MESSAGE,
+        isDismissible = true,
         isVisible = true,
     ),
     Message(
