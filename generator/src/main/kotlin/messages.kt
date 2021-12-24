@@ -2,6 +2,14 @@ import io.github.wulkanowy.messages.pojo.*
 
 val messages = listOf(
     Message(
+        id = 5,
+        title = "Wesołych Świąt!",
+        content = "Wesołych Świąt i szczęśliwego Nowego Roku, żeby w tym przyszłym było mniej awarii VULCANa niż w obecnym, życzy cały Wulkanowy zespół! 🎄",
+        priority = MessagePriority.LOW,
+        type = MessageType.DASHBOARD_MESSAGE,
+        isVisible = true,
+    ),
+    Message(
         id = 4,
         title = "Problemy z logowaniem",
         content = "Przez aktualizację dziennika Gdańskiej Platformy Edukacyjnej przestało działać logowanie w Wulkanowym. Przez to przy odświeżaniu danych pokazuje się komunikat o nieznanym błędzie dziennika. W sklepie AppGallery dostępna jest aktualizacja",
